@@ -37,6 +37,13 @@ Graph Neural Networks (GCN)
       ▼
 Model Evaluation
 
+## Data Source
+The EEG data used in this project were obtained from the OpenNeuro repository.
+**OpenNeuro:** ds004148
+https://openneuro.org/datasets/ds004148/versions/1.0.1
+The dataset was preprocessed to construct functional connectivity graphs suitable for graph-based deep learning using PyTorch Geometric.
+All credit for the original data collection belogs to the autors of the OpenNeuro dataset.
+
 ## Dataset Representation
 Each EEG recording is converted into a graph.
 - **Nodes:** EEG electrodes (61 channels)
