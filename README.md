@@ -110,25 +110,25 @@ The final performance is reported as:
 ## Results
 ### Significant Functional Connections (FDR)
 Fig 1. significant_functional_connections_fdr.png
-The heatmap highlights the statistically significant functional connections after applying False Discovery Rate (FDR) correction. In the figure, each significant point represents a functional connection that remained statistically significant after multiple-comparison-correction.
+- The heatmap highlights the statistically significant functional connections after applying False Discovery Rate (FDR) correction. In the figure, each significant point represents a functional connection that remained statistically significant after multiple-comparison-correction.
 
 ### Brain Functional Network (FDR)
 Fig 2. brain_functional_network_fdr.png
-In the visualization of the functional brain network constructed from significant connections after FDR correction, the nodes represent EEG electrodes.Edges represent significant functional interactions between brain regions.
+- In the visualization of the functional brain network constructed from significant connections after FDR correction, the nodes represent EEG electrodes.Edges represent significant functional interactions between brain regions.
 
 ### Brain Functional Network - Closed Eyes and Open Eyes
 Fig 3. brain_network_closed_eyes_fdr.png
 Fig 4. brain_network_open_eyes_fdr.png
-The graph illustrates the organization of significant functional connections between EEG electrodes after FDR correction.
+- The graph illustrates the organization of significant functional connections between EEG electrodes after FDR correction.
 
 ### Three-Dimensional Brain Connectivity Network
 Fig 5. brain_connectivity_network_3d.png
-The nodes correspond to EEG electrode locations projected onto a  3D head model, while edges represent significant functional connections between brain regions.
+- The nodes correspond to EEG electrode locations projected onto a  3D head model, while edges represent significant functional connections between brain regions.
 
 ### Model Performance Comparison
 Fig 6. compare_models_accuracy.png
-In the picture, the error bars indicate variability across cross-validation folds.
-The compared models are: logistic regression, support vector machine, random forest, k-nearest neighbors, graph convolutional network.
+- In the picture, the error bars indicate variability across cross-validation folds.
+- The compared models are: logistic regression, support vector machine, random forest, k-nearest neighbors, graph convolutional network.
 
 ### Classification Performance
 
@@ -150,7 +150,7 @@ The figure includes t-statistics, p-values and significant connections after thr
 
 ### Functional Connectivity Heatmaps
 Fig 9. connectivity_heatmaps.png
-The figure represents mean functional connectivity matrices computed for each experimental condition (mean connectivity eyes open, mean connectivity eyes closed, difference matrix closed vs open). The objective of this connectivity networks was to identify state-dependent reconfiguration of brain connectivity.
+- The figure represents mean functional connectivity matrices computed for each experimental condition (mean connectivity eyes open, mean connectivity eyes closed, difference matrix closed vs open). The objective of this connectivity networks was to identify state-dependent reconfiguration of brain connectivity.
 
 ## Technologies
 - Python
