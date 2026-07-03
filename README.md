@@ -142,11 +142,11 @@ Fig 6. compare_models_accuracy.png
 
 ### Cross-Validated ROC Curve
 Fig 7. cross_validated_ROC_curve.png
-The Receiver Operating Characteristic (ROC) curve was obtained using stratified cross-validation. The mean AUC for cross-validated SVM was 0.7951.
+- The Receiver Operating Characteristic (ROC) curve was obtained using stratified cross-validation. The mean AUC for cross-validated SVM was 0.7951.
 
 ### Connectivity Statistics
 Fig 8. connectivity_statistics.png
-The figure includes t-statistics, p-values and significant connections after thresholding (p<0.05).
+- The figure includes t-statistics, p-values and significant connections after thresholding (p<0.05).
 
 ### Functional Connectivity Heatmaps
 Fig 9. connectivity_heatmaps.png
